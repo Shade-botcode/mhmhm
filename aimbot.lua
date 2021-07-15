@@ -89,7 +89,7 @@ function CREATE(BASE, TEAM)
 	ESP_MAIN.Size                    = UDim2.new(0, 5, 0, 5)
 	
 	ESP_DOT.Name                     = 'DOT'
-	ESP_DOT.BackgroundColor          = BrickColor.new('Bright red')
+	ESP_DOT.BackgroundColor          = BrickColor.new('0, 251, 255')
 	ESP_DOT.BackgroundTransparency   = 0.3
 	ESP_DOT.BorderSizePixel          = 0
 	ESP_DOT.Position                 = UDim2.new(-0.5, 0, -0.5, 0)
@@ -108,7 +108,7 @@ function CREATE(BASE, TEAM)
 	ESP_NAME.Font                    = 'ArialBold'
 	ESP_NAME.FontSize                = 'Size14'
 	ESP_NAME.Text                    = BASE.Parent.Name:upper()
-	ESP_NAME.TextColor               = BrickColor.new('LightBlue')
+	ESP_NAME.TextColor               = BrickColor.new('0, 251, 255')
 end
 
 function CLEAR()
